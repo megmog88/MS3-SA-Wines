@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine List</title>
+</head>
+<body>
+    {% for WineList in WineList %}
+        {{ WineList.wine_name }}<br>
+        {{ WineList.wine_color }}<br>
+        {{ WineList.wine_description }}<br>
+    {% endfor %}
+</body>
+</html>
